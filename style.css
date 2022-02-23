@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    background-color: lightblue;
+    text-align:center;
+    margin-top: 30px;
+}
+
+header {
+    color:blue;
+}
+
+.bunda {
+    background-color: black;
+    border-radius: 20px;
+}
+
