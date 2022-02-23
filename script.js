@@ -9,5 +9,7 @@ function calcular() {
         result.innerHTML = `Você tem ${ida} anos ou seja...Obrigatório`
     } if(ida >= 16 || ida >= 65) {
         result.innerHTML = `Você tem ${ida} anos ou seja...Opcional`
+    } else if( ida.value.length == 0 ) {
+        alert('[ERRO] Insira um número')
     }
 }
